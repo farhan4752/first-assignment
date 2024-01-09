@@ -11,6 +11,11 @@
     margin: 0 auto;
 }
 
+header {
+    margin-top: 100px !important;
+}
+
+
 .hr_line {
     margin-top: 50px;
     margin-bottom: 50px;
@@ -97,6 +102,13 @@
     text-align: left;
     padding-top: 120px;
     padding-left: 120px;
+    position: relative;
+}
+
+.img-2024 {
+    position: absolute;
+    top: 10%;
+    right: 7%;
 }
 
 .welcome_title {
@@ -234,6 +246,49 @@
 
 /* functional section  */
 
+.functional_title_one {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.functional_title_two {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.functional_title_description {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.light_box {
+    position: relative;
+    margin-top: 80px;
+}
+
+.womenwithbag {
+    position: absolute;
+    right: 0;
+}
+
+.discount {
+    position: absolute;
+    right: 25%;
+    top: 15%;
+    z-index: 1;
+}
+
 /* portfolio section  */
 
 .portfolio_title_one {
@@ -242,6 +297,7 @@
     font-size: 24px;
     font-weight: 500;
     margin-bottom: 15px;
+    margin-top: 120px;
 }
 
 .portfolio_title_two {
@@ -325,7 +381,7 @@
     font-size: 20px;
     font-weight: 600;
     border: none;
-    padding: 16px;
+    padding: 20px;
 }
 
 .mail {
